@@ -1,0 +1,59 @@
+
+
+body {
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #4f46e5;
+}
+
+.my-button {
+    background-color: #10b981;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #e0e7ff, #fef9c3);
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #111827;
+    margin-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.hero-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.hero-btn:hover {
+    transform: scale(1.05);
+    background-color: #4f46e5;
+}
