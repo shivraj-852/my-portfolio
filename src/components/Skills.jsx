@@ -6,7 +6,6 @@ export default function Skills() {
     <section className="skills">
       <h2>Skills</h2>
       <ul>
-        <li>HTML / CSS / JavaScript</li>
         <li>React / Redux</li>
         <li>Node.js / Express</li>
         <li>MongoDB</li>
